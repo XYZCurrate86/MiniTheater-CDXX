@@ -1,0 +1,96 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 11, 2021, 9:55:02 PM
+    Author     : Prayogi
+*/
+
+@font-face {
+    -fx-font-family: Poppins;
+    src: url("file:src/tubesplrs/Poppins-Regular.ttf"); 
+}
+
+@font-face {
+    -fx-font-family: Poppins-Bold;
+    src: url("file:src/tubesplrs/Poppins-Bold.ttf"); 
+}
+
+#tableHome{
+    -fx-font-family: Poppins;
+}
+
+#labelHome{
+    -fx-font-family: Poppins;
+    -fx-font-size: 18px;
+    -fx-font-weight: Bold;
+}
+
+.text-field{
+    -fx-font-family: Poppins;
+}
+
+.text-area{
+    -fx-font-family: Poppins;
+}
+
+.radio-button{
+    -fx-font-family: Poppins;
+}
+
+.combo-box{
+    -fx-font-family: Poppins;
+}
+
+.label{
+    -fx-font-family: Poppins;
+}
+
+#labelInput{
+    -fx-font-family: Poppins;
+    -fx-font-size: 18px;
+    -fx-font-weight: Bold;
+}
+
+#labelEdit{
+    -fx-font-family: Poppins;
+    -fx-font-size: 18px;
+    -fx-font-weight: Bold;
+}
+
+#sideBarBtnHome{
+    -fx-background-color: #005E7A; 
+    -fx-text-fill: #CCFFE4; 
+    -fx-font-family: Poppins; 
+    -fx-font-weight: Bold;
+}
+
+#sideBarBtnInput{
+    -fx-background-color: #005E7A; 
+    -fx-text-fill: #CCFFE4; 
+    -fx-font-family: Poppins; 
+    -fx-font-weight: Bold;
+}
+
+#sideBarBtnEdit{
+    -fx-background-color: #005E7A; 
+    -fx-text-fill: #CCFFE4; 
+    -fx-font-family: Poppins; 
+    -fx-font-weight: Bold;
+}
+
+#btnInput{
+    -fx-background-color: #005E7A; 
+    -fx-text-fill: #CCFFE4; 
+    -fx-font-family: Poppins; 
+    -fx-font-weight: Bold;
+}
+
+#btnEdit{
+    -fx-background-color: #005E7A; 
+    -fx-text-fill: #CCFFE4; 
+    -fx-font-family: Poppins; 
+    -fx-font-weight: Bold; 
+}

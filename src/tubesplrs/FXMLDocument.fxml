@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane id="AnchorPane" prefHeight="516.0" prefWidth="871.0" stylesheets="@Style.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tubesplrs.FXMLDocumentController">
+   <children>
+      <BorderPane fx:id="borderPane" layoutX="-1.0" prefHeight="516.0" prefWidth="879.0" style="-fx-background-color: #ffffff;">
+         <left>
+            <VBox prefHeight="474.0" prefWidth="211.0" style="-fx-background-color: #005E7A;" BorderPane.alignment="CENTER">
+               <children>
+                  <Label id="judul" alignment="CENTER" prefHeight="35.0" prefWidth="213.0" style="-fx-text-fill: #CCFFE4; -fx-font-family: Poppins; -fx-font-size: 24px; -fx-font-weight: Bold" text="Theater CDXX">
+                     <VBox.margin>
+                        <Insets top="15.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Button id="sideBarBtnHome" fx:id="btnHome" mnemonicParsing="false" onAction="#handleHomeButtonAction" onMouseClicked="#handleHomeButtonClickedAction" prefHeight="49.0" prefWidth="214.0" text="Home">
+                     <VBox.margin>
+                        <Insets top="20.0" />
+                     </VBox.margin>
+                  </Button>
+                  <Button id="sideBarBtnInput" fx:id="btnInputData" layoutX="20.0" layoutY="80.0" mnemonicParsing="false" onAction="#handleInputButtonAction" onMouseClicked="#handleInputClickedButtonAction" prefHeight="49.0" prefWidth="215.0" text="Pesan Tiket">
+                     <VBox.margin>
+                        <Insets top="5.0" />
+                     </VBox.margin>
+                  </Button>
+                  <Button id="sideBarBtnEdit" fx:id="btnEditData" layoutX="10.0" layoutY="129.0" mnemonicParsing="false" onAction="#handleEditButtonAction" onMouseClicked="#handleEditClickedButtonAction" prefHeight="49.0" prefWidth="213.0" text="Edit Tiket">
+                     <VBox.margin>
+                        <Insets top="5.0" />
+                     </VBox.margin>
+                  </Button>
+               </children>
+            </VBox>
+         </left>
+      </BorderPane>
+   </children>
+</AnchorPane>
